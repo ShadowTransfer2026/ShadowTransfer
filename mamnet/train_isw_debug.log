@@ -1,0 +1,494 @@
+[17:07:03] train_isw.py: SCRIPT STARTING
+[17:07:03]   __name__ = train_isw
+[17:07:03]   sys.argv = -c
+[17:07:07] train_isw.py: torch imported
+[17:07:11] train_isw.py: all model/data imports done
+[17:07:11] train_isw.py: all imports complete
+[17:07:11] ==================================================
+[17:07:11] GPU DIAGNOSTICS
+[17:07:11] ==================================================
+[17:07:11] CUDA available: True
+[17:07:11] CUDA device count: 1
+[17:07:11] Current CUDA device: 0
+[17:07:11] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:07:11] CUDA device capability: (8, 0)
+[17:07:11] CUDA_VISIBLE_DEVICES: 0
+[17:07:11] ==================================================
+[17:07:12] train_isw.py: SCRIPT STARTING
+[17:07:12]   __name__ = __main__
+[17:07:12]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution highres --fold_id 0 --batch_size 8 --epochs 7 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[17:07:16] train_isw.py: torch imported
+[17:07:19] train_isw.py: all model/data imports done
+[17:07:19] train_isw.py: all imports complete
+[17:07:19] ==================================================
+[17:07:19] GPU DIAGNOSTICS
+[17:07:19] ==================================================
+[17:07:19] CUDA available: True
+[17:07:19] CUDA device count: 1
+[17:07:19] Current CUDA device: 0
+[17:07:19] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:07:19] CUDA device capability: (8, 0)
+[17:07:19] CUDA_VISIBLE_DEVICES: 0
+[17:07:19] ==================================================
+[17:07:19] __main__ block reached — calling main()
+[17:07:19] main() called — parsing args...
+[17:07:19] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_highres
+[17:07:19] Creating TrainerISW...
+[17:07:25] TrainerISW created successfully
+[17:25:46] main() completed successfully
+[17:33:38] train_isw.py: SCRIPT STARTING
+[17:33:38] train_isw.py: SCRIPT STARTING
+[17:33:38]   __name__ = train_isw
+[17:33:38]   __name__ = train_isw
+[17:33:38]   sys.argv = -c
+[17:33:38]   sys.argv = -c
+[17:33:43] train_isw.py: torch imported
+[17:33:43] train_isw.py: torch imported
+[17:33:46] train_isw.py: all model/data imports done
+[17:33:46] train_isw.py: all imports complete
+[17:33:46] ==================================================
+[17:33:46] GPU DIAGNOSTICS
+[17:33:46] ==================================================
+[17:33:46] train_isw.py: all model/data imports done
+[17:33:47] CUDA available: True
+[17:33:47] CUDA device count: 1
+[17:33:47] Current CUDA device: 0
+[17:33:47] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:33:47] CUDA device capability: (8, 0)
+[17:33:47] CUDA_VISIBLE_DEVICES: 0
+[17:33:47] ==================================================
+[17:33:47] train_isw.py: all imports complete
+[17:33:47] ==================================================
+[17:33:47] GPU DIAGNOSTICS
+[17:33:47] ==================================================
+[17:33:47] CUDA available: True
+[17:33:47] CUDA device count: 1
+[17:33:47] Current CUDA device: 0
+[17:33:47] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:33:47] CUDA device capability: (8, 0)
+[17:33:47] CUDA_VISIBLE_DEVICES: 0
+[17:33:47] ==================================================
+[17:33:48] train_isw.py: SCRIPT STARTING
+[17:33:48]   __name__ = __main__
+[17:33:48]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution highres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[17:33:48] train_isw.py: SCRIPT STARTING
+[17:33:48]   __name__ = __main__
+[17:33:48]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution highres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[17:33:51] train_isw.py: torch imported
+[17:33:52] train_isw.py: torch imported
+[17:33:55] train_isw.py: all model/data imports done
+[17:33:55] train_isw.py: all model/data imports done
+[17:33:55] train_isw.py: all imports complete
+[17:33:55] ==================================================
+[17:33:55] GPU DIAGNOSTICS
+[17:33:55] ==================================================
+[17:33:55] CUDA available: True
+[17:33:55] CUDA device count: 1
+[17:33:55] Current CUDA device: 0
+[17:33:55] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:33:55] CUDA device capability: (8, 0)
+[17:33:55] CUDA_VISIBLE_DEVICES: 0
+[17:33:55] ==================================================
+[17:33:55] __main__ block reached — calling main()
+[17:33:55] main() called — parsing args...
+[17:33:55] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_highres
+[17:33:55] Creating TrainerISW...
+[17:33:55] train_isw.py: all imports complete
+[17:33:55] ==================================================
+[17:33:55] GPU DIAGNOSTICS
+[17:33:55] ==================================================
+[17:33:56] CUDA available: True
+[17:33:56] CUDA device count: 1
+[17:33:56] Current CUDA device: 0
+[17:33:56] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:33:56] CUDA device capability: (8, 0)
+[17:33:56] CUDA_VISIBLE_DEVICES: 0
+[17:33:56] ==================================================
+[17:33:56] __main__ block reached — calling main()
+[17:33:56] main() called — parsing args...
+[17:33:56] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_highres
+[17:33:56] Creating TrainerISW...
+[17:34:01] TrainerISW created successfully
+[17:34:01] TrainerISW created successfully
+[17:38:41] train_isw.py: SCRIPT STARTING
+[17:38:41]   __name__ = train_isw
+[17:38:41]   sys.argv = -c
+[17:38:49] train_isw.py: torch imported
+[17:38:55] train_isw.py: all model/data imports done
+[17:38:56] train_isw.py: all imports complete
+[17:38:56] ==================================================
+[17:38:56] GPU DIAGNOSTICS
+[17:38:56] ==================================================
+[17:38:56] CUDA available: True
+[17:38:56] CUDA device count: 1
+[17:38:56] Current CUDA device: 0
+[17:38:56] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:38:56] CUDA device capability: (8, 0)
+[17:38:56] CUDA_VISIBLE_DEVICES: 0
+[17:38:56] ==================================================
+[17:38:58] train_isw.py: SCRIPT STARTING
+[17:38:58]   __name__ = __main__
+[17:38:58]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution highres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[17:39:08] train_isw.py: torch imported
+[17:39:17] train_isw.py: all model/data imports done
+[17:39:18] train_isw.py: all imports complete
+[17:39:18] ==================================================
+[17:39:18] GPU DIAGNOSTICS
+[17:39:18] ==================================================
+[17:39:18] CUDA available: True
+[17:39:18] CUDA device count: 1
+[17:39:18] Current CUDA device: 0
+[17:39:18] CUDA device name: NVIDIA A100-SXM4-40GB
+[17:39:18] CUDA device capability: (8, 0)
+[17:39:18] CUDA_VISIBLE_DEVICES: 0
+[17:39:18] ==================================================
+[17:39:18] __main__ block reached — calling main()
+[17:39:18] main() called — parsing args...
+[17:39:18] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_highres
+[17:39:18] Creating TrainerISW...
+[17:39:21] TrainerISW created successfully
+[18:53:31] main() completed successfully
+[19:04:06] main() completed successfully
+[19:11:44] main() completed successfully
+[14:21:24] train_isw.py: SCRIPT STARTING
+[14:21:24]   __name__ = train_isw
+[14:21:24]   sys.argv = -c
+[14:21:28] train_isw.py: torch imported
+[14:21:30] train_isw.py: all model/data imports done
+[14:21:31] train_isw.py: all imports complete
+[14:21:31] ==================================================
+[14:21:31] GPU DIAGNOSTICS
+[14:21:31] ==================================================
+[14:21:31] CUDA available: True
+[14:21:31] CUDA device count: 1
+[14:21:31] Current CUDA device: 0
+[14:21:31] CUDA device name: NVIDIA A100-SXM4-40GB
+[14:21:31] CUDA device capability: (8, 0)
+[14:21:31] CUDA_VISIBLE_DEVICES: 0
+[14:21:31] ==================================================
+[14:21:32] train_isw.py: SCRIPT STARTING
+[14:21:32]   __name__ = __main__
+[14:21:32]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution midres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[14:21:35] train_isw.py: torch imported
+[14:21:40] train_isw.py: all model/data imports done
+[14:21:40] train_isw.py: all imports complete
+[14:21:40] ==================================================
+[14:21:40] GPU DIAGNOSTICS
+[14:21:40] ==================================================
+[14:21:40] CUDA available: True
+[14:21:40] CUDA device count: 1
+[14:21:40] Current CUDA device: 0
+[14:21:40] CUDA device name: NVIDIA A100-SXM4-40GB
+[14:21:40] CUDA device capability: (8, 0)
+[14:21:40] CUDA_VISIBLE_DEVICES: 0
+[14:21:40] ==================================================
+[14:21:40] __main__ block reached — calling main()
+[14:21:40] main() called — parsing args...
+[14:21:40] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_midres
+[14:21:40] Creating TrainerISW...
+[14:21:41] TrainerISW created successfully
+[14:22:57] train_isw.py: SCRIPT STARTING
+[14:22:57]   __name__ = train_isw
+[14:22:57]   sys.argv = -c
+[14:23:00] train_isw.py: torch imported
+[14:23:03] train_isw.py: all model/data imports done
+[14:23:04] train_isw.py: all imports complete
+[14:23:04] ==================================================
+[14:23:04] GPU DIAGNOSTICS
+[14:23:04] ==================================================
+[14:23:04] CUDA available: True
+[14:23:04] CUDA device count: 1
+[14:23:04] Current CUDA device: 0
+[14:23:04] CUDA device name: NVIDIA A100-SXM4-40GB
+[14:23:04] CUDA device capability: (8, 0)
+[14:23:04] CUDA_VISIBLE_DEVICES: 0
+[14:23:04] ==================================================
+[14:23:05] train_isw.py: SCRIPT STARTING
+[14:23:05]   __name__ = __main__
+[14:23:05]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution midres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[14:23:08] train_isw.py: torch imported
+[14:23:11] train_isw.py: all model/data imports done
+[14:23:11] train_isw.py: all imports complete
+[14:23:11] ==================================================
+[14:23:11] GPU DIAGNOSTICS
+[14:23:11] ==================================================
+[14:23:12] CUDA available: True
+[14:23:12] CUDA device count: 1
+[14:23:12] Current CUDA device: 0
+[14:23:12] CUDA device name: NVIDIA A100-SXM4-40GB
+[14:23:12] CUDA device capability: (8, 0)
+[14:23:12] CUDA_VISIBLE_DEVICES: 0
+[14:23:12] ==================================================
+[14:23:12] __main__ block reached — calling main()
+[14:23:12] main() called — parsing args...
+[14:23:12] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_midres
+[14:23:12] Creating TrainerISW...
+[14:23:13] TrainerISW created successfully
+[14:24:43] train_isw.py: SCRIPT STARTING
+[14:24:43]   __name__ = train_isw
+[14:24:43]   sys.argv = -c
+[14:24:47] train_isw.py: torch imported
+[14:24:49] train_isw.py: all model/data imports done
+[14:24:50] train_isw.py: all imports complete
+[14:24:50] ==================================================
+[14:24:50] GPU DIAGNOSTICS
+[14:24:50] ==================================================
+[14:24:50] CUDA available: True
+[14:24:50] CUDA device count: 1
+[14:24:50] Current CUDA device: 0
+[14:24:50] CUDA device name: NVIDIA A100-SXM4-40GB
+[14:24:50] CUDA device capability: (8, 0)
+[14:24:50] CUDA_VISIBLE_DEVICES: 0
+[14:24:50] ==================================================
+[14:24:51] train_isw.py: SCRIPT STARTING
+[14:24:51]   __name__ = __main__
+[14:24:51]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution midres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[14:24:54] train_isw.py: torch imported
+[14:24:57] train_isw.py: all model/data imports done
+[14:24:58] train_isw.py: all imports complete
+[14:24:58] ==================================================
+[14:24:58] GPU DIAGNOSTICS
+[14:24:58] ==================================================
+[14:24:58] CUDA available: True
+[14:24:58] CUDA device count: 1
+[14:24:58] Current CUDA device: 0
+[14:24:58] CUDA device name: NVIDIA A100-SXM4-40GB
+[14:24:58] CUDA device capability: (8, 0)
+[14:24:58] CUDA_VISIBLE_DEVICES: 0
+[14:24:58] ==================================================
+[14:24:58] __main__ block reached — calling main()
+[14:24:58] main() called — parsing args...
+[14:24:58] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_midres
+[14:24:58] Creating TrainerISW...
+[14:24:59] TrainerISW created successfully
+[15:45:16] main() completed successfully
+[15:57:13] main() completed successfully
+[18:36:12] main() completed successfully
+[22:29:03] train_isw.py: SCRIPT STARTING
+[22:29:03] train_isw.py: SCRIPT STARTING
+[22:29:03] train_isw.py: SCRIPT STARTING
+[22:29:03]   __name__ = train_isw
+[22:29:03]   __name__ = train_isw
+[22:29:03]   __name__ = train_isw
+[22:29:03]   sys.argv = -c
+[22:29:03]   sys.argv = -c
+[22:29:03]   sys.argv = -c
+[22:29:07] train_isw.py: torch imported
+[22:29:07] train_isw.py: torch imported
+[22:29:07] train_isw.py: torch imported
+[22:29:09] train_isw.py: all model/data imports done
+[22:29:10] train_isw.py: all imports complete
+[22:29:10] ==================================================
+[22:29:10] GPU DIAGNOSTICS
+[22:29:10] ==================================================
+[22:29:10] train_isw.py: all model/data imports done
+[22:29:10] CUDA available: True
+[22:29:10] CUDA device count: 1
+[22:29:10] Current CUDA device: 0
+[22:29:10] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:29:10] CUDA device capability: (8, 0)
+[22:29:10] CUDA_VISIBLE_DEVICES: 0
+[22:29:10] ==================================================
+[22:29:10] train_isw.py: all model/data imports done
+[22:29:11] train_isw.py: all imports complete
+[22:29:11] ==================================================
+[22:29:11] GPU DIAGNOSTICS
+[22:29:11] ==================================================
+[22:29:11] CUDA available: True
+[22:29:11] CUDA device count: 1
+[22:29:11] Current CUDA device: 0
+[22:29:11] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:29:11] CUDA device capability: (8, 0)
+[22:29:11] CUDA_VISIBLE_DEVICES: 0
+[22:29:11] ==================================================
+[22:29:11] train_isw.py: all imports complete
+[22:29:11] ==================================================
+[22:29:11] train_isw.py: SCRIPT STARTING
+[22:29:11] GPU DIAGNOSTICS
+[22:29:11]   __name__ = __main__
+[22:29:11] ==================================================
+[22:29:11]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution highres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[22:29:11] CUDA available: True
+[22:29:11] CUDA device count: 1
+[22:29:11] Current CUDA device: 0
+[22:29:11] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:29:11] CUDA device capability: (8, 0)
+[22:29:11] CUDA_VISIBLE_DEVICES: 0
+[22:29:11] ==================================================
+[22:29:12] train_isw.py: SCRIPT STARTING
+[22:29:12]   __name__ = __main__
+[22:29:12]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution highres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[22:29:12] train_isw.py: SCRIPT STARTING
+[22:29:12]   __name__ = __main__
+[22:29:12]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution highres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[22:29:14] train_isw.py: torch imported
+[22:29:15] train_isw.py: torch imported
+[22:29:15] train_isw.py: torch imported
+[22:29:17] train_isw.py: all model/data imports done
+[22:29:17] train_isw.py: all imports complete
+[22:29:17] ==================================================
+[22:29:17] GPU DIAGNOSTICS
+[22:29:17] ==================================================
+[22:29:17] CUDA available: True
+[22:29:17] CUDA device count: 1
+[22:29:17] Current CUDA device: 0
+[22:29:17] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:29:17] CUDA device capability: (8, 0)
+[22:29:17] CUDA_VISIBLE_DEVICES: 0
+[22:29:17] ==================================================
+[22:29:17] __main__ block reached — calling main()
+[22:29:17] main() called — parsing args...
+[22:29:17] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_highres
+[22:29:17] Creating TrainerISW...
+[22:29:18] train_isw.py: all model/data imports done
+[22:29:18] train_isw.py: all model/data imports done
+[22:29:18] train_isw.py: all imports complete
+[22:29:18] ==================================================
+[22:29:18] GPU DIAGNOSTICS
+[22:29:18] ==================================================
+[22:29:18] train_isw.py: all imports complete
+[22:29:18] ==================================================
+[22:29:18] GPU DIAGNOSTICS
+[22:29:18] ==================================================
+[22:29:18] CUDA available: True
+[22:29:18] CUDA device count: 1
+[22:29:18] Current CUDA device: 0
+[22:29:18] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:29:18] CUDA device capability: (8, 0)
+[22:29:18] CUDA_VISIBLE_DEVICES: 0
+[22:29:18] ==================================================
+[22:29:18] __main__ block reached — calling main()
+[22:29:18] main() called — parsing args...
+[22:29:18] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_highres
+[22:29:18] Creating TrainerISW...
+[22:29:18] CUDA available: True
+[22:29:18] CUDA device count: 1
+[22:29:18] Current CUDA device: 0
+[22:29:18] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:29:18] CUDA device capability: (8, 0)
+[22:29:18] CUDA_VISIBLE_DEVICES: 0
+[22:29:18] ==================================================
+[22:29:18] __main__ block reached — calling main()
+[22:29:18] main() called — parsing args...
+[22:29:18] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_highres
+[22:29:18] Creating TrainerISW...
+[22:29:19] TrainerISW created successfully
+[22:29:19] TrainerISW created successfully
+[22:29:20] TrainerISW created successfully
+[00:53:42] main() completed successfully
+[01:01:45] main() completed successfully
+[01:03:16] main() completed successfully
+[11:49:04] train_isw.py: SCRIPT STARTING
+[11:49:04]   __name__ = train_isw
+[11:49:04]   sys.argv = -c
+[11:49:08] train_isw.py: torch imported
+[11:49:11] train_isw.py: all model/data imports done
+[11:49:11] train_isw.py: all imports complete
+[11:49:11] ==================================================
+[11:49:11] GPU DIAGNOSTICS
+[11:49:11] ==================================================
+[11:49:11] CUDA available: True
+[11:49:11] CUDA device count: 1
+[11:49:12] Current CUDA device: 0
+[11:49:12] CUDA device name: NVIDIA A100-SXM4-40GB
+[11:49:12] CUDA device capability: (8, 0)
+[11:49:12] CUDA_VISIBLE_DEVICES: 0
+[11:49:12] ==================================================
+[11:49:12] train_isw.py: SCRIPT STARTING
+[11:49:12]   __name__ = __main__
+[11:49:12]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution midres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[11:49:16] train_isw.py: torch imported
+[11:49:19] train_isw.py: all model/data imports done
+[11:49:19] train_isw.py: all imports complete
+[11:49:19] ==================================================
+[11:49:19] GPU DIAGNOSTICS
+[11:49:19] ==================================================
+[11:49:19] CUDA available: True
+[11:49:19] CUDA device count: 1
+[11:49:19] Current CUDA device: 0
+[11:49:19] CUDA device name: NVIDIA A100-SXM4-40GB
+[11:49:19] CUDA device capability: (8, 0)
+[11:49:19] CUDA_VISIBLE_DEVICES: 0
+[11:49:19] ==================================================
+[11:49:19] __main__ block reached — calling main()
+[11:49:19] main() called — parsing args...
+[11:49:19] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_phoenix_midres
+[11:49:19] Creating TrainerISW...
+[11:49:21] TrainerISW created successfully
+[12:18:52] train_isw.py: SCRIPT STARTING
+[12:18:52]   __name__ = train_isw
+[12:18:52]   sys.argv = -c
+[12:18:52] train_isw.py: SCRIPT STARTING
+[12:18:52]   __name__ = train_isw
+[12:18:52]   sys.argv = -c
+[12:18:56] train_isw.py: torch imported
+[12:18:56] train_isw.py: torch imported
+[12:18:59] train_isw.py: all model/data imports done
+[12:18:59] train_isw.py: all model/data imports done
+[12:18:59] train_isw.py: all imports complete
+[12:18:59] ==================================================
+[12:18:59] GPU DIAGNOSTICS
+[12:18:59] ==================================================
+[12:19:00] CUDA available: True
+[12:19:00] CUDA device count: 1
+[12:19:00] Current CUDA device: 0
+[12:19:00] CUDA device name: NVIDIA A100-SXM4-40GB
+[12:19:00] CUDA device capability: (8, 0)
+[12:19:00] CUDA_VISIBLE_DEVICES: 0
+[12:19:00] ==================================================
+[12:19:00] train_isw.py: all imports complete
+[12:19:00] ==================================================
+[12:19:00] GPU DIAGNOSTICS
+[12:19:00] ==================================================
+[12:19:00] CUDA available: True
+[12:19:00] CUDA device count: 1
+[12:19:00] Current CUDA device: 0
+[12:19:00] CUDA device name: NVIDIA A100-SXM4-40GB
+[12:19:00] CUDA device capability: (8, 0)
+[12:19:00] CUDA_VISIBLE_DEVICES: 0
+[12:19:00] ==================================================
+[12:19:00] train_isw.py: SCRIPT STARTING
+[12:19:00]   __name__ = __main__
+[12:19:00]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution midres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[12:19:01] train_isw.py: SCRIPT STARTING
+[12:19:01]   __name__ = __main__
+[12:19:01]   sys.argv = train_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/ --resolution midres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0001 --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10 --comparison_inference_dir /projects/bgpi/smittal5/ShadeMaps//data/Test_img_results/ --comparison_data_root /projects/bgpi/smittal5/ShadeMaps//data/Final_data_test/
+[12:19:04] train_isw.py: torch imported
+[12:19:05] train_isw.py: torch imported
+[12:19:07] train_isw.py: all model/data imports done
+[12:19:07] train_isw.py: all imports complete
+[12:19:07] ==================================================
+[12:19:07] GPU DIAGNOSTICS
+[12:19:07] ==================================================
+[12:19:07] CUDA available: True
+[12:19:07] CUDA device count: 1
+[12:19:07] Current CUDA device: 0
+[12:19:07] CUDA device name: NVIDIA A100-SXM4-40GB
+[12:19:07] CUDA device capability: (8, 0)
+[12:19:07] CUDA_VISIBLE_DEVICES: 0
+[12:19:07] ==================================================
+[12:19:07] __main__ block reached — calling main()
+[12:19:07] main() called — parsing args...
+[12:19:07] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_miami_midres
+[12:19:07] Creating TrainerISW...
+[12:19:08] train_isw.py: all model/data imports done
+[12:19:08] train_isw.py: all imports complete
+[12:19:08] ==================================================
+[12:19:08] GPU DIAGNOSTICS
+[12:19:08] ==================================================
+[12:19:09] CUDA available: True
+[12:19:09] CUDA device count: 1
+[12:19:09] Current CUDA device: 0
+[12:19:09] CUDA device name: NVIDIA A100-SXM4-40GB
+[12:19:09] CUDA device capability: (8, 0)
+[12:19:09] CUDA_VISIBLE_DEVICES: 0
+[12:19:09] ==================================================
+[12:19:09] __main__ block reached — calling main()
+[12:19:09] main() called — parsing args...
+[12:19:09] Args parsed. mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps//data/mamnet/isw_masks/loco_holdout_chicago_midres
+[12:19:09] Creating TrainerISW...
+[12:19:10] TrainerISW created successfully
+[12:19:10] TrainerISW created successfully
+[15:12:12] main() completed successfully
+[16:19:30] main() completed successfully
+[16:33:30] main() completed successfully
