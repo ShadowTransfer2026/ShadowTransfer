@@ -1,0 +1,252 @@
+[07:26:12] train_oglanet_isw.py: SCRIPT STARTING
+[07:26:12]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /scratch/gilbreth/mittal53/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 0 --batch_size 8 --epochs 7 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /scratch/gilbreth/mittal53/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /scratch/gilbreth/mittal53/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[07:26:21] train_oglanet_isw.py: torch imported
+[07:26:23] train_oglanet_isw.py: all model/data imports done
+[07:26:23] train_oglanet_isw.py: all imports complete
+[07:26:23] ==================================================
+[07:26:23] GPU DIAGNOSTICS
+[07:26:23] CUDA available: True
+[07:26:23] CUDA device count: 1
+[07:26:23] CUDA device name: NVIDIA A100-SXM4-40GB
+[07:26:23] CUDA_VISIBLE_DEVICES: 0
+[07:26:23] ==================================================
+[07:26:23] __main__ block reached — calling main()
+[07:26:23] main() called — parsing args...
+[07:26:23] Args: mode=loco, isw_mask_dir=/scratch/gilbreth/mittal53/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres
+[07:26:23] Creating TrainerOGLANetISW...
+[07:26:26] Trainer created successfully.
+[07:34:34] main() completed successfully.
+[07:25:54] train_oglanet_isw.py: SCRIPT STARTING
+[07:25:54]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 0 --batch_size 8 --epochs 7 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[07:25:58] train_oglanet_isw.py: torch imported
+[07:26:00] train_oglanet_isw.py: all model/data imports done
+[07:26:01] train_oglanet_isw.py: all imports complete
+[07:26:01] ==================================================
+[07:26:01] GPU DIAGNOSTICS
+[07:26:01] CUDA available: True
+[07:26:01] CUDA device count: 1
+[07:26:01] CUDA device name: NVIDIA A100-SXM4-40GB
+[07:26:01] CUDA_VISIBLE_DEVICES: 0
+[07:26:01] ==================================================
+[07:26:01] __main__ block reached — calling main()
+[07:26:01] main() called — parsing args...
+[07:26:01] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres
+[07:26:01] Creating TrainerOGLANetISW...
+[07:26:02] Trainer created successfully.
+[07:34:44] main() completed successfully.
+[07:47:05] train_oglanet_isw.py: SCRIPT STARTING
+[07:47:05] train_oglanet_isw.py: SCRIPT STARTING
+[07:47:05] train_oglanet_isw.py: SCRIPT STARTING
+[07:47:05]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[07:47:05]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[07:47:05]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[07:47:08] train_oglanet_isw.py: torch imported
+[07:47:08] train_oglanet_isw.py: torch imported
+[07:47:08] train_oglanet_isw.py: torch imported
+[07:47:11] train_oglanet_isw.py: all model/data imports done
+[07:47:11] train_oglanet_isw.py: all model/data imports done
+[07:47:11] train_oglanet_isw.py: all model/data imports done
+[07:47:11] train_oglanet_isw.py: all imports complete
+[07:47:11] ==================================================
+[07:47:11] GPU DIAGNOSTICS
+[07:47:11] train_oglanet_isw.py: all imports complete
+[07:47:11] train_oglanet_isw.py: all imports complete
+[07:47:11] ==================================================
+[07:47:11] ==================================================
+[07:47:11] GPU DIAGNOSTICS
+[07:47:11] GPU DIAGNOSTICS
+[07:47:12] CUDA available: True
+[07:47:12] CUDA available: True
+[07:47:12] CUDA device count: 1
+[07:47:12] CUDA device count: 1
+[07:47:12] CUDA device name: NVIDIA A100-SXM4-40GB
+[07:47:12] CUDA device name: NVIDIA A100-SXM4-40GB
+[07:47:12] CUDA_VISIBLE_DEVICES: 0
+[07:47:12] CUDA_VISIBLE_DEVICES: 0
+[07:47:12] ==================================================
+[07:47:12] ==================================================
+[07:47:12] __main__ block reached — calling main()
+[07:47:12] __main__ block reached — calling main()
+[07:47:12] main() called — parsing args...
+[07:47:12] main() called — parsing args...
+[07:47:12] CUDA available: True
+[07:47:12] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres
+[07:47:12] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_highres
+[07:47:12] Creating TrainerOGLANetISW...
+[07:47:12] CUDA device count: 1
+[07:47:12] Creating TrainerOGLANetISW...
+[07:47:12] CUDA device name: NVIDIA A100-SXM4-40GB
+[07:47:12] CUDA_VISIBLE_DEVICES: 0
+[07:47:12] ==================================================
+[07:47:12] __main__ block reached — calling main()
+[07:47:12] main() called — parsing args...
+[07:47:12] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_highres
+[07:47:12] Creating TrainerOGLANetISW...
+[07:47:14] Trainer created successfully.
+[07:47:14] Trainer created successfully.
+[07:47:14] Trainer created successfully.
+[08:59:06] main() completed successfully.
+[09:36:06] main() completed successfully.
+[09:48:28] main() completed successfully.
+[03:54:08] train_oglanet_isw.py: SCRIPT STARTING
+[03:54:08]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution midres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[03:54:12] train_oglanet_isw.py: torch imported
+[03:54:15] train_oglanet_isw.py: all model/data imports done
+[03:54:15] train_oglanet_isw.py: all imports complete
+[03:54:15] ==================================================
+[03:54:15] GPU DIAGNOSTICS
+[03:54:15] CUDA available: True
+[03:54:15] CUDA device count: 1
+[03:54:15] CUDA device name: NVIDIA A100-SXM4-40GB
+[03:54:15] CUDA_VISIBLE_DEVICES: 0
+[03:54:15] ==================================================
+[03:54:15] __main__ block reached — calling main()
+[03:54:15] main() called — parsing args...
+[03:54:15] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_midres
+[03:54:15] Creating TrainerOGLANetISW...
+[03:54:17] Trainer created successfully.
+[03:55:27] train_oglanet_isw.py: SCRIPT STARTING
+[03:55:27]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution midres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[03:55:31] train_oglanet_isw.py: torch imported
+[03:55:33] train_oglanet_isw.py: all model/data imports done
+[03:55:34] train_oglanet_isw.py: all imports complete
+[03:55:34] ==================================================
+[03:55:34] GPU DIAGNOSTICS
+[03:55:34] CUDA available: True
+[03:55:34] CUDA device count: 1
+[03:55:34] CUDA device name: NVIDIA A100-SXM4-40GB
+[03:55:34] CUDA_VISIBLE_DEVICES: 0
+[03:55:34] ==================================================
+[03:55:34] __main__ block reached — calling main()
+[03:55:34] main() called — parsing args...
+[03:55:34] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_midres
+[03:55:34] Creating TrainerOGLANetISW...
+[03:55:35] Trainer created successfully.
+[04:01:07] train_oglanet_isw.py: SCRIPT STARTING
+[04:01:07]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution midres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[04:01:13] train_oglanet_isw.py: torch imported
+[04:01:16] train_oglanet_isw.py: all model/data imports done
+[04:01:16] train_oglanet_isw.py: all imports complete
+[04:01:16] ==================================================
+[04:01:16] GPU DIAGNOSTICS
+[04:01:16] CUDA available: True
+[04:01:16] CUDA device count: 1
+[04:01:16] CUDA device name: NVIDIA A100-SXM4-40GB
+[04:01:16] CUDA_VISIBLE_DEVICES: 0
+[04:01:16] ==================================================
+[04:01:16] __main__ block reached — calling main()
+[04:01:16] main() called — parsing args...
+[04:01:16] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_midres
+[04:01:16] Creating TrainerOGLANetISW...
+[04:01:18] Trainer created successfully.
+[06:17:33] main() completed successfully.
+[06:48:54] main() completed successfully.
+[06:50:25] main() completed successfully.
+[22:40:16] train_oglanet_isw.py: SCRIPT STARTING
+[22:40:16] train_oglanet_isw.py: SCRIPT STARTING
+[22:40:16]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[22:40:16]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[22:40:16] train_oglanet_isw.py: SCRIPT STARTING
+[22:40:16]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution highres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[22:40:19] train_oglanet_isw.py: torch imported
+[22:40:19] train_oglanet_isw.py: torch imported
+[22:40:19] train_oglanet_isw.py: torch imported
+[22:40:22] train_oglanet_isw.py: all model/data imports done
+[22:40:22] train_oglanet_isw.py: all model/data imports done
+[22:40:22] train_oglanet_isw.py: all imports complete
+[22:40:22] train_oglanet_isw.py: all imports complete
+[22:40:22] ==================================================
+[22:40:22] ==================================================
+[22:40:22] GPU DIAGNOSTICS
+[22:40:22] GPU DIAGNOSTICS
+[22:40:22] train_oglanet_isw.py: all model/data imports done
+[22:40:22] CUDA available: True
+[22:40:22] CUDA device count: 1
+[22:40:22] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:40:22] CUDA_VISIBLE_DEVICES: 0
+[22:40:22] ==================================================
+[22:40:22] __main__ block reached — calling main()
+[22:40:22] main() called — parsing args...
+[22:40:22] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_highres
+[22:40:22] Creating TrainerOGLANetISW...
+[22:40:22] CUDA available: True
+[22:40:22] CUDA device count: 1
+[22:40:22] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:40:22] CUDA_VISIBLE_DEVICES: 0
+[22:40:22] ==================================================
+[22:40:22] __main__ block reached — calling main()
+[22:40:22] main() called — parsing args...
+[22:40:22] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_highres
+[22:40:22] Creating TrainerOGLANetISW...
+[22:40:23] train_oglanet_isw.py: all imports complete
+[22:40:23] ==================================================
+[22:40:23] GPU DIAGNOSTICS
+[22:40:23] CUDA available: True
+[22:40:23] CUDA device count: 1
+[22:40:23] CUDA device name: NVIDIA A100-SXM4-40GB
+[22:40:23] CUDA_VISIBLE_DEVICES: 0
+[22:40:23] ==================================================
+[22:40:23] __main__ block reached — calling main()
+[22:40:23] main() called — parsing args...
+[22:40:23] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_highres
+[22:40:23] Creating TrainerOGLANetISW...
+[22:40:23] Trainer created successfully.
+[22:40:23] Trainer created successfully.
+[22:40:24] Trainer created successfully.
+[23:54:43] main() completed successfully.
+[00:28:43] main() completed successfully.
+[01:08:57] main() completed successfully.
+[18:00:54] train_oglanet_isw.py: SCRIPT STARTING
+[18:00:54]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution midres --fold_id 1 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[18:00:57] train_oglanet_isw.py: torch imported
+[18:01:00] train_oglanet_isw.py: all model/data imports done
+[18:01:01] train_oglanet_isw.py: all imports complete
+[18:01:01] ==================================================
+[18:01:01] GPU DIAGNOSTICS
+[18:01:01] CUDA available: True
+[18:01:01] CUDA device count: 1
+[18:01:01] CUDA device name: NVIDIA A100-SXM4-40GB
+[18:01:01] CUDA_VISIBLE_DEVICES: 0
+[18:01:01] ==================================================
+[18:01:01] __main__ block reached — calling main()
+[18:01:01] main() called — parsing args...
+[18:01:01] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_miami_midres
+[18:01:01] Creating TrainerOGLANetISW...
+[18:01:01] Trainer created successfully.
+[18:01:38] train_oglanet_isw.py: SCRIPT STARTING
+[18:01:38]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution midres --fold_id 0 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[18:01:39] train_oglanet_isw.py: SCRIPT STARTING
+[18:01:39]   sys.argv = train_oglanet_isw.py --mode loco --base_data_root /projects/bgpi/smittal5/ShadeMaps/data/Final_data_test/ --resolution midres --fold_id 2 --batch_size 8 --epochs 100 --lr 0.0005 --optimizer adamax --img_size 384 --output_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/outputs --num_workers 1 --isw_mask_dir /projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_midres --isw_lambda 0.6 --use_contrast --eval_boundary_tolerant --boundary_tolerance 2 --early_stopping_patience 10
+[18:01:41] train_oglanet_isw.py: torch imported
+[18:01:44] train_oglanet_isw.py: torch imported
+[18:01:44] train_oglanet_isw.py: all model/data imports done
+[18:01:44] train_oglanet_isw.py: all imports complete
+[18:01:44] ==================================================
+[18:01:44] GPU DIAGNOSTICS
+[18:01:44] CUDA available: True
+[18:01:45] CUDA device count: 1
+[18:01:45] CUDA device name: NVIDIA A100-SXM4-40GB
+[18:01:45] CUDA_VISIBLE_DEVICES: 0
+[18:01:45] ==================================================
+[18:01:45] __main__ block reached — calling main()
+[18:01:45] main() called — parsing args...
+[18:01:45] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_phoenix_midres
+[18:01:45] Creating TrainerOGLANetISW...
+[18:01:46] Trainer created successfully.
+[18:01:47] train_oglanet_isw.py: all model/data imports done
+[18:01:48] train_oglanet_isw.py: all imports complete
+[18:01:48] ==================================================
+[18:01:48] GPU DIAGNOSTICS
+[18:01:48] CUDA available: True
+[18:01:48] CUDA device count: 1
+[18:01:48] CUDA device name: NVIDIA A100-SXM4-40GB
+[18:01:48] CUDA_VISIBLE_DEVICES: 0
+[18:01:48] ==================================================
+[18:01:48] __main__ block reached — calling main()
+[18:01:48] main() called — parsing args...
+[18:01:48] Args: mode=loco, isw_mask_dir=/projects/bgpi/smittal5/ShadeMaps/data/oglanet/isw_masks/loco_holdout_chicago_midres
+[18:01:48] Creating TrainerOGLANetISW...
+[18:01:49] Trainer created successfully.
+[19:57:50] main() completed successfully.
+[20:46:59] main() completed successfully.
+[20:49:58] main() completed successfully.
